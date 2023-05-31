@@ -1,12 +1,12 @@
 
     <header>
-        <h1>My Yuka</h1>
-        <p>Obtenez les informations sur les produits alimentaires</p>
+        <h1>{{myTitle}}</h1>
+        <p>{{mySlogan}}</p>
     </header>
     <div class="main">
         <div class="searchBar">
-            <input type="text" placeholder="type bar code here...">
-            <button>Rechercher</button>
+            <input type="text" placeholder="type bar code here..." [formControl]="champSaisi">
+            <button (click)="afficherChampSaisi()">Rechercher</button>
         </div>
         <div class="food">
             <div class="photo">
