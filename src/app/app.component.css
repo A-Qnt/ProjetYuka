@@ -105,6 +105,13 @@ header p {
     border-radius: 30px;
 }
 
+.allergen {
+    margin: 10px 0;
+    height: 200px;
+    background-color: #dad2bc;
+    border-radius: 30px;
+}
+
 footer {
     margin-top: 10px;
     border-radius: 30px;
