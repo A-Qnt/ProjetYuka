@@ -161,3 +161,26 @@ footer {
     font-size: 80px;
     text-transform: uppercase;
 }
+
+footer {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+footer span {
+    
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+    color: white;
+}
+
+footer p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
